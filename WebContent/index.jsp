@@ -8,7 +8,8 @@
 </head>
 <style>
 div.ex {
-	text-align: right width:300px;
+	text-align: right;
+	width:300px;
 	padding: 10px;
 	border: 5px solid grey;
 	margin: 0px
@@ -18,7 +19,7 @@ div.ex {
 	<h1>Welcome to studentapp</h1>
 	<div class="ex">
 		<form action="registrationController" method="post">
-			<table style="with: 50%">
+			<table style="width: 100%">
 				<tr>
 					<td>Student Name</td>
 					<td><input type="text" name="fullname"/></td>
